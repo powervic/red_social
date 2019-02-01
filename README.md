@@ -1,0 +1,11 @@
+# red_social
+CU1 REGISTRO > completado
+CU2 ACCESO > completado
+CU3 VER MURO PERSONAL> completado
+CU4 ESCRIBIR MENSAJE > completado
+CU5 MODIFICAR>
+CU6 ELIMINAR > completado
+CU7 BUSCAR PERSONAS > completado
+CU8 VER OTRO MURO > completado
+CU9 VER DETALLE > 
+CU10 PUNTUAR MENSAJE >
