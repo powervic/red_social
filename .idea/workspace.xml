@@ -11,17 +11,7 @@
       <change afterPath="$PROJECT_DIR$/../practica15/borrado.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practica15/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practica15/saludo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acceso.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/remove.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comprobacion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/red_social.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../redo/p07/numero.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../redo/p07/practica01.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../redo/p07/practica02.php" afterDir="false" />
@@ -33,6 +23,8 @@
       <change beforePath="$PROJECT_DIR$/../practica09/numero.php" beforeDir="false" afterPath="$PROJECT_DIR$/../practica09/numero.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practica12/ejercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../practica12/ejercicio1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practica13/ejercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../practica13/ejercicio1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,20 +62,22 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="php" value="13" />
-          <entry key="sql" value="2" />
+          <entry key="sql" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PHP" value="13" />
+          <entry key="SQL" value="1" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -106,14 +100,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/perfil.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="438">
-              <caret line="115" column="60" lean-forward="true" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="115" column="60" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -121,8 +112,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5228728b-ca74-4d6f-bde6-7e31b08ed923/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-end-line="52" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/red_social.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -138,7 +138,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,6 +153,7 @@
         <option value="$PROJECT_DIR$/backend/search.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5228728b-ca74-4d6f-bde6-7e31b08ed923/console.sql" />
         <option value="$PROJECT_DIR$/perfil.php" />
+        <option value="$PROJECT_DIR$/sql/red_social.sql" />
       </list>
     </option>
   </component>
@@ -167,8 +168,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="800" />
-    <option name="y" value="-19" />
-    <option name="width" value="979" />
+    <option name="y" value="-20" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -183,16 +184,6 @@
             <path>
               <item name="practica23" type="b2602c69:ProjectViewProjectNode" />
               <item name="practica23" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica23" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica23" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica23" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica23" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,11 +225,12 @@
       <workItem from="1548783664161" duration="11417000" />
       <workItem from="1548833350230" duration="29222000" />
       <workItem from="1549011438267" duration="11868000" />
+      <workItem from="1549049097337" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52507000" />
+    <option name="totallyTimeSpent" value="52864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -258,7 +250,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.109375" side_tool="true" visible="true" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.109375" side_tool="true" visible="true" weight="0.2857143" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,13 +292,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/bd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/bd.php" />
     <entry file="file://$PROJECT_DIR$/backend/remove.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -321,13 +307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5228728b-ca74-4d6f-bde6-7e31b08ed923/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -338,10 +317,21 @@
     <entry file="file://$PROJECT_DIR$/perfil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
-          <caret line="115" column="60" lean-forward="true" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="115" column="60" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5228728b-ca74-4d6f-bde6-7e31b08ed923/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-end-line="52" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/red_social.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
         </state>
       </provider>
     </entry>
