@@ -145,7 +145,7 @@
       <ul class="list-group" id="listaContactos" style="padding: 0">
         <!-- AQUI IRIA EL CODIGO PHP PARA AÑADIR LOS USUARIOS HACIENDO UNA PETICION A LA BASE DE DATOS -->
           <?php
-          $mysql=new mysqli("localhost","root","","red_social");
+/*          $mysql=new mysqli("localhost","root","","red_social");
           $query="SELECT * FROM usuarios";
           $res=$mysql->query($query);
           $fila=$res->fetch_assoc();
@@ -157,7 +157,7 @@
           echo "</a>";
               $fila=$res->fetch_assoc();
           }
-          ?>
+          */?>
       </ul>
     </div>
   </body>
@@ -191,6 +191,7 @@
       });
 
       $('#btnSearch').on('click', function(){
+          $('#listaContactos').empty();
           var busqueda = $("#search").val().toLowerCase();
           var urlSearch = 'backend/search.php?busqueda='+busqueda;
           $.ajax({
@@ -200,9 +201,17 @@
             if (data == "error")
                 alert("Error al realizar la búsqueda.");
             else {
-                $.each(data, function(indice, usuario){
-                    if (busqueda == usuario.username )
-                });
+                for(var i= 0;i < data.length; i++) {
+                    if (busqueda == data[i]["username"] || busqueda == data[i]["apellidos"].toLowerCase() || busqueda == data[i]["nombre"].toLowerCase()){
+                        $('#listaContactos').append(
+                            "<a href='perfil.php?user="+data[i]["username"]+"'>" +
+                            "   <li class='list-group-item'>" +
+                                    data[i]["nombre"]+' '+data[i]["apellidos"] +
+                            "   </li>" +
+                            "</a>");
+                    }
+
+                }
             }
           });
         });

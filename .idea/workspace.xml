@@ -11,7 +11,6 @@
       <change afterPath="$PROJECT_DIR$/../practica15/borrado.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practica15/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practica15/saludo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/red_social.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../redo/p07/numero.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../redo/p07/practica01.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../redo/p07/practica02.php" afterDir="false" />
@@ -23,8 +22,7 @@
       <change beforePath="$PROJECT_DIR$/../practica09/numero.php" beforeDir="false" afterPath="$PROJECT_DIR$/../practica09/numero.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practica12/ejercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../practica12/ejercicio1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practica13/ejercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../practica13/ejercicio1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfil.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,27 +68,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="13" />
+          <entry key="php" value="14" />
           <entry key="sql" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="13" />
+          <entry key="PHP" value="14" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="11343" />
+          <entry key="php" value="11612" />
           <entry key="sql" value="1566" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="11331" />
+          <entry key="PHP" value="11600" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="SQL" value="12" />
           <entry key="Scratch" value="1566" />
@@ -100,11 +98,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/perfil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="115" column="60" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
+            <state relative-caret-position="237">
+              <caret line="194" column="58" selection-start-line="194" selection-start-column="58" selection-end-line="194" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -112,17 +119,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5228728b-ca74-4d6f-bde6-7e31b08ed923/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-end-line="52" selection-end-column="103" />
+            <state relative-caret-position="153">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/red_social.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+            <state relative-caret-position="393">
+              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -152,8 +159,8 @@
         <option value="$PROJECT_DIR$/backend/create.php" />
         <option value="$PROJECT_DIR$/backend/search.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5228728b-ca74-4d6f-bde6-7e31b08ed923/console.sql" />
-        <option value="$PROJECT_DIR$/perfil.php" />
         <option value="$PROJECT_DIR$/sql/red_social.sql" />
+        <option value="$PROJECT_DIR$/perfil.php" />
       </list>
     </option>
   </component>
@@ -184,6 +191,11 @@
             <path>
               <item name="practica23" type="b2602c69:ProjectViewProjectNode" />
               <item name="practica23" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practica23" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica23" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,15 +237,16 @@
       <workItem from="1548783664161" duration="11417000" />
       <workItem from="1548833350230" duration="29222000" />
       <workItem from="1549011438267" duration="11868000" />
-      <workItem from="1549049097337" duration="357000" />
+      <workItem from="1549049097337" duration="2789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52864000" />
+    <option name="totallyTimeSpent" value="55296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -245,12 +258,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="7" sideWeight="0.890625" visible="true" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="7" sideWeight="0.88997394" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.109375" side_tool="true" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.11002604" side_tool="true" visible="true" weight="0.2857143" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,6 +320,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sql/red_social.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -314,24 +334,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perfil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="115" column="60" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5228728b-ca74-4d6f-bde6-7e31b08ed923/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-end-line="52" selection-end-column="103" />
+        <state relative-caret-position="153">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/red_social.sql">
+    <entry file="file://$PROJECT_DIR$/perfil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+        <state relative-caret-position="237">
+          <caret line="194" column="58" selection-start-line="194" selection-start-column="58" selection-end-line="194" selection-end-column="58" />
         </state>
       </provider>
     </entry>
